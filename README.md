@@ -2,7 +2,7 @@
 
 4.1
 
-Because in a simple fibonacci recursion the Big O notation of the code is 2^n because in the code there are calling 2 recursion itself.
+Because in a simple fibonacci recursion the Big O notation of the code is 2^n because in the code there are calling 2 recursion and each of recursion will call another 2 recursion and so on.
 
 ```java
 return sampleFibonacci(n - 1) + sampleFibonacci(n - 2);
